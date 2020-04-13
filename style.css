@@ -1,27 +1,10 @@
-
-.img-homepage{
+header{
+    background-image: url(./img/homepage.gif);
     width: 100%;
-    height: 530px;
-    align-items: center;
-}
-/* .agricom-logo{
-    width:10%;
-    height: 70px;
-    background-color: gray;
-    align-items: center;
-} */
-.main-area{
-    position: relative;
+    height: 550px;
+    background-size: cover;
 }
 .agricom-logo{
-    position: absolute;
-    top: 0;
-    left: 100px;
-    display: flex;
-}
-
-.side{
-    /* align-items: center; */
     width: 100px;
     background-color: #545961;
     padding: 5px;
@@ -29,34 +12,36 @@
     padding-bottom: 20px;
     margin-left: 100px;
 }
+.container{
+    max-width: 1170px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.nav-ul{
+    flex-wrap: wrap;
+}
+.agri-lenguage{
+    display: flex;
+}
 .white{
     color: honeydew;
     display: block;
-    padding-top: 5px;
-    padding: 5px;
-}
-.nav-ul{
-    height: 80px ;
-    background-color:#545961;
+    background-color: grey;
     opacity: 0.5;
-    /* padding:5px; */
+    font-size: 15px;
+    height: 25px;
+    padding: 5px 0;
 }
 .menu{
-    color: honeydew;
-    font-size: 18.5px;
-    /* justify-content: space-between; */
-    margin-left: 10px;
-}
-.more-li{
-    margin-top: 30px;
-    justify-content: center;
-    font-family: 'DIN Condensed Bold';
-}
-.menu-category{
-    margin-left: 400px;
-}
-.search{
+    margin-right: 10px;
     vertical-align: middle;
-    margin-left: 10px;
-    margin-right: -10px;
+    font-size: 18px;
+    color: honeydew;
+}
+.menu-search{
+    margin-right: 0px;
+    vertical-align: middle;
 }
