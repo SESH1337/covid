@@ -1,7 +1,7 @@
 header{
     background-image: url(./img/homepage.gif);
     width: 100%;
-    height: 700px;
+    height: 740px;
     background-size: cover;
 }
 .agricom-logo{
@@ -13,8 +13,8 @@ header{
     margin-left: 100px;
 }
 .container{
-    max-width: 1300px;
-    /* margin:0 auto; */
+    max-width: 1200px;
+    margin:0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
