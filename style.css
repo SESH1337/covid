@@ -1,47 +1,78 @@
-header{
-    background-image: url(./img/homepage.gif);
+@font-face {
+	font-family: 'poller_oneregular';
+	src: url('./fonts/pollerone/pollerone-webfont.eot');
+	src: url('./fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('./fonts/pollerone/pollerone-webfont.woff') format('woff'),
+		 url('./fonts/pollerone/pollerone-webfont.ttf') format('truetype'),
+		 url('./fonts/pollerone/pollerone-webfont.svg#poller_oneregular') format('svg');
+}
+
+@font-face {
+	font-family: 'leckerli_oneregular';
+	src: url('./fonts/leckerlione/leckerlione-regular-webfont.eot');
+	src: url('./fonts/leckerlione/leckerlione-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('./fonts/leckerlione/leckerlione-regular-webfont.woff') format('woff'),
+		 url('./fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
+		 url('./fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
+}
+
+.top-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.a-tag{
+    font-size: 14px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-left: 30px;
+    color: black;
+    opacity: 0.8;
+}
+.a-tag:hover{
+    color: #0ba39c;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.driver{
+    margin-top: 50px;
+    position: relative;
+}
+.mexican-guy{
     width: 100%;
-    height: 740px;
-    background-size: cover;
 }
-.agricom-logo{
-    width: 100px;
-    background-color: #545961;
-    padding: 5px;
-    padding-top: 70px;
-    padding-bottom: 20px;
-    margin-left: 100px;
+.text1{
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 23px 27px 25px;
+    font-family: poller_oneregular;
 }
-.container{
-    max-width: 1250px;
-    margin:0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    align-items: center;
+.list-li{
+    position: absolute;
+    left: 50%;
+    top: 20%;
 }
-.nav-ul{
-    flex-wrap: wrap;
+.similar{
+    background-color:#252525;
+    color:#fff;
+    margin: 25px 0;
+    padding: 10px 20px;
+    font-size: 20px;
 }
-.agri-lenguage{
-    display: flex;
+.read{
+    background-color:#0ba39c;
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+    top:50px
 }
-.white{
-    color: honeydew;
-    display: block;
-    background-color: grey;
-    opacity: 0.5;
-    font-size: 15px;
-    height: 25px;
-    padding: 5px 0;
+.read:hover{
+    background-color:#1fc3bc;
+    transition: 0.7s ease-in-out;
+    
 }
-.menu{
-    margin-right: 10px;
-    vertical-align: middle;
-    font-size: 18px;
-    color: honeydew;
-}
-.menu-search{
-    margin-right: 0px;
-    vertical-align: middle;
+.spawn{
+    padding: 10px;
 }
