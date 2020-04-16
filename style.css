@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
 	font-family: 'poller_oneregular';
 	src: url('./fonts/pollerone/pollerone-webfont.eot');
@@ -17,6 +18,25 @@
 }
 
 .top-logo{
+=======
+header{
+    background-image: url(./img/homepage.gif);
+    width: 100%;
+    height: 740px;
+    background-size: cover;
+}
+.agricom-logo{
+    width: 100px;
+    background-color: #545961;
+    padding: 5px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+>>>>>>> 290984ea74e1853a48762ab3af01436d219981d6
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -73,6 +93,28 @@
     transition: 0.7s ease-in-out;
     
 }
+<<<<<<< HEAD
 .spawn{
     padding: 10px;
 }
+=======
+.white{
+    color: honeydew;
+    display: block;
+    background-color: grey;
+    opacity: 0.5;
+    font-size: 15px;
+    height: 25px;
+    padding: 5px 0;
+}
+.menu{
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 18px;
+    color: honeydew;
+}
+.menu-search{
+    margin-right: 0px;
+    vertical-align: middle;
+}
+>>>>>>> 290984ea74e1853a48762ab3af01436d219981d6
